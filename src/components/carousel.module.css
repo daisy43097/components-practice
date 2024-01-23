@@ -1,0 +1,46 @@
+.carousel {
+  max-width: 1480px;
+  margin: 1rem auto;
+  position: relative;
+}
+
+button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  font-size: 3.5rem;
+  text-shadow: grey;
+  cursor: pointer;
+}
+
+.btnBar {
+  margin: 1.5rem 0;
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+}
+
+.btnDot {
+  cursor: pointer;
+}
+
+.pageBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  top: 50%;
+  position: absolute;
+  transform: translateY(-50%);
+  width: 100%;
+}
+
+.btnPage {
+
+}
+
+.btnControl {
+  cursor: pointer;
+}
